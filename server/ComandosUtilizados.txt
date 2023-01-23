@@ -1,0 +1,48 @@
+Flags:
+    -D Dependencia de projeto (não irá para produção)
+    -G Dependencia Global (irá para produção)
+
+-> Cria o arquivo package.json
+npm init -y
+
+->Instala o fastify(tipo um express para rotas)
+npm i(ou install) fastify
+
+->instala o typescript como dependencia de projeto
+npm install typescript -D
+
+-> Inicializa o arquivo de ts.config
+npx tsc --init
+
+-> Para executar arquivos TS
+npm install tsx -D
+
+->executar arquivos TS com o comando
+npx tsx src/server.ts -> Aqui confuguramos um script no arquivo ts.config para executar automatico
+
+-> Instalar o prisma (ORM objeto->banco relacional)
+npm install -D prisma
+
+-> Instalar o client do prisma
+npm install @prisma/client
+
+->Falar que vamos utilziar p banco do tipo SQLite
+npx prisma init --datasource-provider SQLite
+
+-> Vasculha o arquivo schema.prisma e cria os sqls
+npx prisma migrate dev
+
+-> Abre um interface no navegador para olhar o banco 
+npx prisma migrate dev
+
+-> Add segurança e quais front end poderão acessar o back para pegar os dados
+npm install @fastify/cors
+
+-> Interface para diagramas do prisma
+ npm install prisma-erd-generator @mermaid-js/mermaid-cli
+
+ -> instalar biblioteca Zod para valdiações
+ npm install zod
+
+ -> instalar biblioteca para trabalhar com datas no js
+ npm install dayjs

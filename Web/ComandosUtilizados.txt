@@ -1,0 +1,29 @@
+->Instalar as dependências
+npm intall
+
+->Instalar o tailwind css pstcss e autoprefixer
+npm install -D tailwindcss postcss autoprefixer
+
+-> Criar arquivco de config do tailwind
+npx tailwindcss init -p
+
+-> Biblioteca para icones
+npm install phosphor-react
+
+-> Biblioteca para se trablhar com datas
+npm install dayjs
+
+-> Radix UI Dialog component para modal
+npm install @radix-ui/react-dialog
+
+-> Radix UI Popover component para popover
+npm install @radix-ui/react-popover
+
+-> Gerenciar condições para estilos
+npm install clsx
+
+-> Radix UI chekbox component para checkbox
+npm install @radix-ui/react-checkbox
+
+-> Biblioteca para fazer requisições Http
+npm install axios
